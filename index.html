@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
     <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
@@ -17,9 +19,9 @@
             <h2 class="logo">NERDFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="#filme-series">Filmes e Séries</a>
+                <a href="#games">Games</a>
+                <a href="#">Cursos</a>
             </nav>
         </div>
     </header>
@@ -33,16 +35,20 @@
                     com o objetivo de impressionar um bilionário excêntrico do ramo tecnológico.
                 </p>
                 <div class="botoes">
-                    <button rule="button" class="botao">
+                    <button rule="button" class="botao" onclick="window.open('https://www.youtube.com/watch?v=lqgM8ZdAqKo&t=17s')">
                         <i class="fas fa-play"></i>
                         ASSISTA AGORA</button>
-                    <button rule="button" class="botao">
+                    <button rule="button" class="botao" onclick="window.open('https://www.themoviedb.org/tv/60573-silicon-valley?language=pt-BR')">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES</button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="titulo-carousel">
+        <h2 id="filme-series">Filmes e Séries</h2>
+    </div>
 
     <div class="carrosel-filmes">
         <div class="owl-carousel owl-theme">
@@ -60,6 +66,45 @@
             </div>
             <div class="item">
                 <img class="box-filme" src="img/fbi.jpg" alt="Série FBI" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/xmen2.jpg" alt="Série XMEN" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/swat.jpg" alt="Filme SWAT" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/the-mandalorian.jpg" alt="Filme Mandalorian" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/ex-machina.jpg" alt="Filme Ex-Machina" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/soul.jpg" alt="Filme Soul" srcset=""/>
+            </div>
+        </div>
+    </div>
+
+    <div class="titulo-carousel">
+        <h2 id="games">Games</h2>
+    </div>
+    
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/GTA5.jpg" alt="Jogo GTA 5" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/tomb-raider.jpg" alt="Jogo Tomb Raider" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/the-last-of-us.jpg" alt="Jogo The Last of Us" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/injustice.jpg" alt="Jogo Injustice" srcset=""/>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/uncharted.jpg" alt="Jogo Undercharted" srcset=""/>
             </div>
             <div class="item">
                 <img class="box-filme" src="img/xmen2.jpg" alt="Série XMEN" srcset=""/>
